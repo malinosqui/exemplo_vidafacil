@@ -16,8 +16,11 @@ import { ChatPage } from '../chat/chat';
 })
 export class MessagesPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public modalCtrl: ModalController) {
-  }
+  constructor(
+    public navCtrl: NavController,
+    public navParams: NavParams,
+    public modalCtrl: ModalController
+  ) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad MessagesPage');
